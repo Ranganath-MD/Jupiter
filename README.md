@@ -1,4 +1,4 @@
-## Matinee
+## Jupiter
 
 
 ![Movie pic](/src/assets/images/movienew.PNG)
