@@ -13,6 +13,7 @@ import FilmProvider from "./context/FilmProvider"
 import TVShowProvider from "./context/TVShowProvider"
 import SearchResults from "./components/SearchResults"
 import NotFound from "./layouts/404"
+import Seo from './layouts/Seo';
 
 function App() {
   console.log("%cMatinee Movie", "color: maroon; font-weight: 900; font-size: 50px; font-family: monospace");
@@ -20,6 +21,10 @@ function App() {
     <BrowserRouter>
       <FilmProvider>
         <TVShowProvider>
+          <Seo
+            title="Jupiter"
+            description="Find your favourite movies and give thumbs up"
+          />
           <Header />
           <div style={{ minHeight: "90vh" }}>
             <Switch>

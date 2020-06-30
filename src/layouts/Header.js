@@ -18,7 +18,7 @@ const  Header = () => {
             <MDBContainer>
                 <MDBNavbarBrand>
                     <strong className="brand">
-                        <Link to="/" className="brand_name">Matinee</Link>
+                        <Link to="/" className="brand_name">Jupiter</Link>
                     </strong>
                 </MDBNavbarBrand>
                 <MDBNavbarToggler onClick={toggleCollapse} />
@@ -34,7 +34,7 @@ const  Header = () => {
                             <MDBNavLink to="/discover/tv-shows" className="links">TV Shows</MDBNavLink>
                         </MDBNavItem>
                         <MDBNavItem>
-                            <a href="https://github.com/Ranganath-MD/matinee-movie" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/Ranganath-MD/Jupiter" target="_blank" rel="noopener noreferrer">
                                 <MDBIcon fab size="lg" icon="github" className="github" />
                             </a>
                         </MDBNavItem>
