@@ -1,7 +1,7 @@
 ## Jupiter
 
 
-![Movie pic](/src/assets/images/movienew.PNG)
+![Movie pic](/src/assets/images/movie.PNG)
 
 
 ## Available Scripts
