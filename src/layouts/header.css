@@ -1,0 +1,38 @@
+.brand_name {
+    font-family: 'Notable', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 6px;
+    margin-left: 20px;
+    color: #cccfd1;
+    text-transform: uppercase;
+    background: #cccfd1;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.links {
+    font-size: 17px;
+}
+
+.modal {
+    background-color: black;
+}
+
+.modal-body {
+    background-color: black;
+}
+
+.navbar {
+    background-color: black;
+    /* background: #8E0E00;
+    box-shadow: none !important;
+    background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);
+    background: linear-gradient(to right, #1F1C18, #8E0E00); */
+}
+
+.github {
+    font-size: 25px !important;
+    color: white;
+    margin: 12px 10px 0px;
+}

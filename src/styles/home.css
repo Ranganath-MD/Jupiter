@@ -1,0 +1,308 @@
+.home-component {
+    height: 450px !important;
+    width: 100%;
+    padding-top: 4%;
+    /* background-image: url("https://image.tmdb.org/t/p/original//oLma4sWjqlXVr0E3jpaXQCytuG9.jpg"); */
+    /* background-image: url("../assets/images/thor.jpg"); */
+    background-size: cover;
+    background-color: #272626;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-blend-mode: overlay;
+}
+
+.container2 {
+    margin-top: 2%;
+    padding: 2% 8%;
+}
+
+.hr_popular_cards {
+    margin-top: 20px;
+    background-image: url("../assets/images/background1.svg");
+    background-repeat: no-repeat;
+    height: 340px;
+    min-width: 100%;
+    min-height: 200px;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    cursor: pointer;
+}
+
+.sp_card {
+    min-width: 15%;
+    margin-right: 20px;
+}
+
+.hr_popular_cards::-webkit-scrollbar {
+    display: none;
+}
+
+.p_movie_title {
+    font-size: 15px;
+    padding: 7px 5px;
+    margin-bottom: 0;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.p_date {
+    font-size: 15px;
+    padding: 0px 5px;
+    margin-bottom: 0;
+    color: gray;
+}
+
+.backdrop {
+    height: 70%;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.Heading {
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    padding: 20px 0px 0px 20px;
+    margin-bottom: -10px;
+}
+
+.subtitle {
+    font-size: 3vw;
+    color: white;
+    padding: 6px 20px;
+}
+
+.search_btn {
+    display: block !important;
+    margin: auto !important;
+    font-size: 15px !important;
+}
+
+.form-control {
+    height: 45px !important;
+    width: 100% !important;
+    padding: 0px 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 2.25rem !important;
+    margin-top: 20px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-control:hover {
+    box-shadow: 0 8px 6px -6px #17e023;
+}
+
+.form-control:focus {
+    box-shadow: 0 8px 6px -6px #17e023;
+}
+
+.overview_result {
+    font-size: 1em;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 0;
+}
+
+.card_result {
+    max-height: 150px;
+    /* background-color: #212121 !important; */
+    border-radius: 10px !important;
+    margin-top: 10px !important;
+}
+
+.col1 {
+    margin-top: 20px;
+}
+
+.title_result {
+    /* color: white; */
+    font-size: 20px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.image_container {
+    overflow: hidden;
+    width: 100% !important;
+    height: 300px;
+    display: block;
+}
+
+.card_image {
+    width: 100%;
+    height: auto;
+}
+
+.sort {
+    position: absolute;
+    right: 0;
+    margin: 10px;
+}
+
+.custom-select {
+    font-size: 20px !important;
+}
+
+.category_headings {
+    color: white;
+    font-size: 25px;
+    margin-top: 50px;
+    padding-left: 10px;
+    border-left: 3px solid yellow;
+}
+
+.trending_container {
+    display: flex;
+    align-items: baseline;
+}
+
+.btn1 {
+    background-color: white !important;
+    text-transform: capitalize !important;
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    border: none;
+    font-size: 15px;
+    margin-left: 15px;
+    width: 65px;
+}
+
+.btn1:focus {
+    outline: none;
+}
+
+.btn_active1 {
+    background-color: #880e4f !important;
+    color: white;
+    text-transform: capitalize !important;
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    border: none;
+    font-size: 15px;
+    margin-left: 15px;
+    width: 65px;
+}
+
+.btn_active1:focus {
+    outline: none;
+}
+
+.btn2 {
+    background-color: white !important;
+    text-transform: capitalize !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    border: none;
+    font-size: 15px;
+    width: 65px;
+}
+
+.btn_active2:focus {
+    outline: none;
+}
+
+.btn2:focus {
+    outline: none;
+}
+
+.btn_active2 {
+    background-color: #880e4f !important;
+    color: white;
+    text-transform: capitalize !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    border: none;
+    font-size: 15px;
+    width: 65px;
+}
+
+@media only screen and (min-width: 501px) and (max-width: 600px) {
+    .sp_card {
+        min-width: 28%;
+    }
+}
+@media only screen and (min-width:421px) and (max-width: 500px) {
+    .sp_card {
+        min-width: 32% !important;
+    }
+}
+@media only screen and (min-width:350px) and (max-width: 420px) {
+    .sp_card {
+        min-width: 40% !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Heading {
+        font-size: 40px;
+        font-weight: 700;
+        color: white;
+        padding: 20px 0px 0px 0px;
+        margin-bottom: -10px;
+        text-align: center;
+    }
+    .subtitle {
+        font-size: 20px;
+        color: white;
+        padding: 6px 0px;
+        text-align: center;
+        /* line-height: 0; */
+    }
+    .sp_card {
+        min-width: 28%;
+    }
+    .category_headings {
+        font-size: 18px;
+    }
+    .hr_popular_cards {
+        height: 285px;
+    }
+    .home-component {
+        height: 380px !important;
+    }
+    .trending_container {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+    }
+    .btn1 {
+        margin-left: 0px;
+    }
+    .btn_active1 {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .sp_card {
+        min-width: 23%;
+    }
+    .hr_popular_cards {
+        height: 300px;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1000px) {
+    .sp_card {
+        min-width: 20%;
+    }
+    .hr_popular_cards {
+        height: 300px;
+    }
+}

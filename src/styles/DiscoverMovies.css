@@ -1,0 +1,44 @@
+.pagination-style {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    padding: 10px;
+}
+
+.active-item {
+    background-color: crimson;
+    /* height: 42px; */
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.active-link {
+    color: white
+}
+
+.active-link:hover {
+    color: white
+}
+
+.heading {
+    font-size: 60px;
+    font-weight: bold;
+    color: #cccfd1;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.loading-spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+@media only screen and (max-width: 500px) {
+    .heading {
+        font-size: 25px;
+    }
+}

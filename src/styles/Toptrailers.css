@@ -1,0 +1,99 @@
+.trailer-container {
+    margin: 20px 0px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #161616 !important;
+    background-blend-mode: soft-light;
+}
+
+.hr_trailers_cards {
+    margin-top: 20px;
+    min-width: 100%;
+    min-height: 180px;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    cursor: pointer;
+}
+
+.hr_trailers_cards::-webkit-scrollbar {
+    display: none;
+}
+
+.top_card {
+    min-width: 23%;
+    margin-right: 20px;
+}
+.top_card:hover{
+    min-width: 23%;
+    margin-right: 20px;
+}
+
+.modal_body {
+    height: 400px;
+    padding: 0;
+}
+
+.modal_head {
+    background-color: black;
+    color: white;
+    border-bottom: none !important;
+    padding: 2px 15px !important;
+}
+
+.modal_title {
+    font-size: 15px;
+}
+
+.play-btn {
+    position: absolute !important;
+    top: 30%;
+    left: 30%;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1000px) {
+    .hr_trailers_cards {
+        min-height: 150px;
+    }
+    .top_card {
+        min-width: 25%;
+        margin-right: 20px;
+    }
+    .trailer-container {
+        height: 250px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 799px) {
+    .hr_trailers_cards {
+        min-height: 150px;
+    }
+    .top_card {
+        min-width: 35%;
+        margin-right: 20px;
+    }
+    .trailer-container {
+        height: 220px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .hr_trailers_cards {
+        min-height: 130px;
+    }
+    .top_card {
+        min-width: 40%;
+        margin-right: 20px;
+    }
+    .trailer-container {
+        height: 180px;
+    }
+}
